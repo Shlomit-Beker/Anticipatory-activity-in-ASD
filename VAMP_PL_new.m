@@ -2,7 +2,7 @@
 % Phase Locking (Intra-Trial-Phase-Coherence) analysis. Shlomit Beker 2018
 % runs on selected channels. Run this for correlation with behavior for
 % Anticipation-in-autism analysis. 
-% Shlomit Beker 2019-2020
+% Shlomit Beker 2019-2020 <shlomitbeker@gmail.com>
 
 %% parameters for phase locking
 clear PLallstim PLV
