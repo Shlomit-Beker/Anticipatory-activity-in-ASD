@@ -75,43 +75,5 @@ Data = data_bl_ASD(:,timeReduction); %data_bl is baselined data (see VAMP_TFR);
     axis tight
 
 
-%if plotP ==1
-% figure('units','normalized','outerposition',[0 0 1 1])
-% subplot(4,4,[1 4 2 8])
-%      h =  imagesc(Timeoi(1):1/N/5:Timeoi(end),freqoi(1):.01:freqoi(end),dataInterp)
-%     hold on; 
-%     dataInterp(isnan(dataInterp)==1)=1;
-%     pSig = dataInterp < 0.05;
-%     %[row,col,v] = find(pSig);   
-%     contour(Timeoi(1):1/N/5:Timeoi(end),freqoi(1):.01:freqoi(end),pSig,'k');
-%     colormap jet;
-%     colorbar;
-%     caxis([-0.1 0.1]);
-%     set(gca,'YDir','normal')
-%     for k = 2:length(lines)
-%         line([lines(k), lines(k)],[y2(1,1),y2(end,1)],[z_max,z_max]...
-%         ,'Color','w','LineWidth',2,'LineStyle','--');
-%     end
-%     ylabel('Frequency (Hz)');
-%     xlabel('Time (Sec.)');
-%     title('TD-ASD ITPC difference')
-%     set(gca,'fontsize', 14);
-% 
-% hold on; 
-% subplot(3,3,[1 4])
-% 
-% %plot(mean(dataInterp,2),freqoi)
-% freqVec = freqoi(1):.01:freqoi(end); 
-% %freqVec = freqoi(1):1/500/5:freqoi(end);
-% plot(mean(dataInterp,2),freqVec,'LineWidth',2);
-% 
-% %figure; plot(nanmean(data,2),freqoi,'LineWidth',2);
-% 
-% %set(gca, 'xdir','reverse')
-% axis tight
-% ylabel('Frequency, Hz')
-% xlabel('ITPC value')
-% set(gca,'fontsize', 12);
-
 
 end
