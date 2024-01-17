@@ -1,7 +1,7 @@
 %% plot smooth TFR data
 % ITPC for more than one group!
 % data is a matrix of frequency (rows) x time (columns)
-% Shlomit Beker 2018 
+% Shlomit Beker 2018 <shlomitbeker@gmail.com>
 
 
 function it_plotSmoothTFR(data, timeoi,freqoi,chns,LINES)
