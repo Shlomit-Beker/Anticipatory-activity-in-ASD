@@ -1,6 +1,7 @@
 %% Calculate TFR and ITC for one channel. Used for Oscillation data analysis
 % for all channels - use VAMPcalcTimeFreqItpc (takes time). 
 % Run after MAIN_Vamp_Anal (needs only DATA). 
+% <Shlomit Beker>
 
 
 clear itcAll dataTemp spectAll spectrumEst itc Group data DATA_I itc sumItc
